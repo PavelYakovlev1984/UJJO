@@ -1,0 +1,14 @@
+.hero {
+  &__block {
+    margin-top: -1px;
+  }
+
+  &__left {
+    border-right: 1px solid var(--dark-color);
+    width: 50%;
+  }
+
+  &__right {
+    width: 50%;
+  }
+}
