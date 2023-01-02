@@ -11,4 +11,46 @@
   &__right {
     width: 50%;
   }
+
+  &__phrase {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+  }
+
+  &__image {
+    padding: 20px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__image-2 {
+    padding: 20px;
+    height: 100%;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__title {
+    padding: 20px 60px;
+    border-bottom: 1px solid var(--dark-color);
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
+  }
 }
