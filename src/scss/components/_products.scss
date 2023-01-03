@@ -40,10 +40,12 @@
   &__content {
     position: relative;
     margin-top: -1px;
-    padding: 20px;
+    padding-top: 20px;
+    ;
   }
 
   &__decorative {
+    left: 20px;
     width: calc(100% - 40px);
     position: absolute;
     display: flex;
@@ -61,13 +63,29 @@
     }
   }
 
+
   &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 17px;
+    padding: 0 20px;
+    padding-bottom: 20px;
   }
 
   &__item {
     width: 436px;
+  }
+
+  &__ticker {
+    margin-top: -2px;
+  }
+
+  &__phrase {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--dark-color);
   }
 }
