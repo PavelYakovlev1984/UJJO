@@ -1,0 +1,10 @@
+.banner {
+  margin-top: -1px;
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    margin-top: -180px;
+  }
+}
