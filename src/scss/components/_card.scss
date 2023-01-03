@@ -1,16 +1,17 @@
 .card {
-  background-image: url("..img/products-bg.svg");
-
-  &__item {
-    min-height: 658px;
-    display: flex;
-    background-image: url("..img/products-bg.svg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 22px;
+  min-height: 658px;
+  background-image: url("../img/products-bg.svg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &__taste {
+    margin: 0;
+    margin-bottom: 14px;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -21,6 +22,8 @@
   }
 
   &__title {
+    margin: 0;
+    margin-bottom: 14px;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
