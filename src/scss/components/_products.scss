@@ -88,4 +88,13 @@
     text-transform: uppercase;
     color: var(--dark-color);
   }
+
+  &__cover {
+    padding: 20px;
+
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
 }
